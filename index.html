@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prov</title>
+    <style>
+
+.post {
+      margin: 15px;
+      padding: 20px;
+      color: #333333;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, min max(250px,2fr));
+      gap: 20px;
+    }
+    #post>div{
+
+    }
+.post > div > p{
+  font-weight: bold;
+  font-size: 24px;
+}
+    .post h2:hover {
+      font-weight: bold;
+      font-size: 24px;
+      background-color: #eeeeee
+    }
+    .post p {
+      font-size: 16px;
+    }
+    .post:nth-child(odd) {
+      background-color: #dddddd;
+    }
+
+    .post:nth-child(even) {
+      background-color: #eeeeee;
+    }
+
+    @media (max-width: 768px) {
+      .post {
+        width: 100%;
+      }
+    }
+    @media (max-width: 425px) {
+      .post {
+        width: 100%;
+      }
+    }
+    </style>
+  </head>
+  <body>
+    <div id="posts"></div>
+    <script src="question1.js"></script>
+    <script src="question2.js"></script>
+    <script src="question3.js"></script>
+    <script src="question4.js"></script>
+    <script src="question5.js"></script>
+    <script src="question6.js"></script>
+    <script src="question7.js"></script>
+  </body>
+</html>
+
+
+<!-- // 7.2 Styla varje användare (3p)
+// Varje användare ska ha följande style:
+// margin: 15px
+// padding: 20px
+// Texten på namnet ska vara bold och 24 pixlar
+// Övrig text ska vara 16 pixlar
+// Text-färgen ska ha färg-kod: #333333
+// Backgrundsfärgen för varje användare ska ha färg-kod: #dddddd
+// När man för muspekaren över en användare ska bakgrundsfärgen ändras till #eeeeee
+// Visa användare i fyra kolumner för desktop och en kolumn för mobil -->
